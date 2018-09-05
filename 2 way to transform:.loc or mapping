@@ -1,0 +1,11 @@
+# loc
+```markdown
+all_data.loc[all_data["edjefe"]=="yes","edjefe"]=1
+```
+```markdown
+all_data.loc[all_data["edjefe"]=="yes","edjefe"]=1
+```markdown
+mapping = {"yes": 1, "no": 0}
+for df in [train, test]:
+df['edjefa'] = df['edjefa'].replace(mapping).astype(np.float64)
+```
